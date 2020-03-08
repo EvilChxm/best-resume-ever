@@ -276,7 +276,7 @@ export default Vue.component(name, getVueOptions(name));
 }
 
 .left-column {
-  width: 30%;
+  width: 25%;
   height: 100%;
   padding: 30px;
   padding-top: 45px;
@@ -305,7 +305,7 @@ export default Vue.component(name, getVueOptions(name));
   opacity: 0.4; // up this value to contrast the cover image
 
   height: 100%;
-  width: 35%;
+  width: 30%;
   padding: 30px;
   padding-top: 45px;
 
@@ -321,7 +321,7 @@ export default Vue.component(name, getVueOptions(name));
   flex-direction: column;
   padding: 30px;
   height: 100%;
-  width: 65%;
+  width: 70%;
 }
 
 a {
