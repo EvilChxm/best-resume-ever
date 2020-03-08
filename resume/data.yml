@@ -1,92 +1,107 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: 程小敏
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: 
+about: It's not the mountain we conquer but ourselves
+position: 前端开发工程师
+party: 中共党员
 
 birth:
   year: 1990
-  location: New York
+  location: 安徽省宣城市
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: 南京万户网络资讯有限责任公司
+  position: 前端工程师
+  timeperiod: 2014/12 - 2015/7
+  description: 在职时主要职责是利用JQ+HTML(5)+CSS(3)等前端技术，完成相关企业站的搭建以及页面的交互功能。后因南京技术团队裁撤，不愿意去合肥，故离职
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: 南京厚建软件有限责任公司
+  position: 前端研发工程师/开发三组副主管
+  timeperiod: 2015/7-2018/4
+  description: 在职期间，主要负责新媒体运营后台管理后台的前端开发工作。工作期间，参与并主导了微信墙、mxu等产品的开发工作。后期负责前端三组的开发资源，开发进度等日常工作。
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: 南京苏宁软件技术有限公司
+  position: 前端研发工程师/大数据可视化部前端负责人
+  timeperiod: 2018/4 - 至今
+  description: 在职期间，主要负责实时化、服务化管理后台的开发工作，后期肩负两个平台组的项目前端开发负责人，对整个开发进度、开发资源、人员协调等做一个管理，另外，与另外几位前端负责人，完善大数据中心codeReview以及开发规范等前端开发流程。19年下半年，才正式接触可视化开发工作，主导并参与了画布开发工作。
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: 本科
+  timeperiod: 2010/9 - 2014/7
+  description: 青海大学  信息管理与信息系统专业
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+# - name: HTML5
+#   level: 99
+# - name: CSS3
+#   level: 95
+# - name: JavaScript
+#   level: 97
+# - name: Node.js
+#   level: 93
+# - name: Angular 2
+#   level: 60
+# - name: TypeScript
+#   level: 80
+# - name: ES.Next
+#   level: 70
+# - name: Docker
+#   level: 99
+# knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+#   (English and Klingon).
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: 实时在线计算开发平台(OCDP)
+  platform: Vue + Vue-Router + Element-UI
+  description: 主导开发了OCDP管理后台项目。主要是更改element-ui里的tree组件 修改，添加contextMenu等满足当前业务需求的交互功能；开发工作 中负责流程开发模块、SQl开发模块，另外就是负责跟踪整体项目开发 进程，进行汇总
+  # url: https://github.com/salomonelli/best-resume-ever
+
+- name: 准实时计算平台(SSMP)
+  platform: Vue + Vue-Router + Element-UI
+  description: 主导改版了SSMP项目。统一了请求返回格式，使得能够统一处理相关 错误以及提示；将vue-source改为由axios处理对应请求；独立api管理 模块；另外重新改版了任务管理中的任务新增模块代码，由原先每个 任务一个form表单，改为一个form表单，不同的form-item，使得逻 辑简化了许多。另外就是SSMP后续开发迭代的跟踪以及任务分配工作
+  # url: https://github.com/salomonelli/best-resume-ever
+
+- name: 实时计算管理平台(RTCP)
+  platform: Vue + Vue-Router + iview
+  description: 负责rtcp的版本更新迭代开发工作。因为是老项目，没有做大的改版需求。后期针对老的这个项目，删减功能，对接了苏宁金融，提供内部服务使用
+  # url: https://github.com/salomonelli/best-resume-ever
+
+- name: IDE一体化项目
+  platform: Vue + Vue-Router + Element-UI
+  description: IDE项目作为一个开发者的角色，参与协助项目的开发工作，推进项目 按期发布。开发期间主要负责任务流、任务链的可视化预览编辑开发 工作。采用了konva.js这个插件作为shape的绘制工具，因为是拖拽新 增节点，所以节点位置不需要考虑，只要考虑自适应布局时，利用dagre.js重新定位nodeShape的坐标即可。另外开放对应contextMenu、click、dblclick等事件API，达到交互功能
+  # url: https://github.com/salomonelli/best-resume-ever
+
+- name: visual-graph
+  platform: javascript
+  description: visual-graph主要是为了节省重复开发而开发的一款可视化工具。绘制 工具主要采用的是konva.js以及G6团队开发的hierarchy工具计算布局 定位，目前简单实现了Tree以及Flow两种类型的画布，其中，利用 Tree满足了中心管理平台的思维导图功能，以及满足血缘链路项目的 血缘关系视图的画布需求。而利用Flow实现了任务编辑管理的任务流 程图等相关需求，目前正在对接。而在开发Dagre的自适应布局图 时，发现dagre算法本身存在问题，后面改成了利用d3+d3-dagre实 现。现在正在设计自定义节点shape功能，实现用户自定义节点shape功能
+  # url: https://github.com/salomonelli/best-resume-ever
 
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+- name: 跑步
+  iconClass: fa fa-leaf
+  # url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+- name: 乒乓球
+  iconClass: fa fa-leaf
+  # url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+# - name: best-resume-ever
+#   description: Build fast 🚀 and easy multiple beautiful resumes.
+#   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
+  email: 1536570204@qq.com
+  phone: 18795851325
   street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  city: 南京市建邺区
+
+  native: 安徽省宣城市
+  # website: johndoe.com
+  # github: johnyD
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
